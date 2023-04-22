@@ -1,0 +1,164 @@
+{
+  "boots": [
+    {
+      "name": "Leather Boots",
+      "type": "Boots",
+      "implicit": [
+        "+5 Armor",
+        {
+          "min": 4,
+          "max": 7,
+          "label": "% increased Movement Speed"
+        }
+      ],
+      "requirements": {
+        "level": 1
+      }
+    },
+    {
+      "name": "Refuge Boots",
+      "type": "Boots",
+      "implicit": [
+        "+15 Armor",
+        {
+          "min": 7,
+          "max": 9,
+          "label": "% increased Movement Speed"
+        }
+      ],
+      "requirements": {
+        "level": 8
+      }
+    },
+    {
+      "name": "Iron Greaves",
+      "type": "Boots",
+      "implicit": [
+        "+35 Armor",
+        {
+          "min": 7,
+          "max": 9,
+          "label": "% increased Movement Speed"
+        }
+      ],
+      "requirements": {
+        "level": 16
+      }
+    },
+    {
+      "name": "Outcast Boots",
+      "type": "Boots",
+      "implicit": [
+        "+20 Armor",
+        {
+          "min": 10,
+          "max": 12,
+          "label": "% increased Movement Speed"
+        },
+        {
+          "min": 10,
+          "max": 20,
+          "label": "% increased Dodge Rating"
+        }
+      ],
+      "requirements": {
+        "level": 23
+      }
+    },
+    {
+      "name": "Brigandine Boots",
+      "type": "Boots",
+      "implicit": [
+        "+53 Armor",
+        {
+          "min": 13,
+          "max": 15,
+          "label": "% increased Movement Speed"
+        }
+      ],
+      "requirements": {
+        "level": 30
+      }
+    },
+    {
+      "name": "Heoborean Boots",
+      "type": "Boots",
+      "implicit": [
+        "+30 Armor",
+        {
+          "min": 15,
+          "max": 18,
+          "label": "% increased Movement Speed"
+        },
+        {
+          "min": 10,
+          "max": 40,
+          "label": "% Cold Resistance"
+        }
+      ],
+      "requirements": {
+        "level": 45
+      }
+    },
+    {
+      "name": "Shrine Boots",
+      "type": "Boots",
+      "implicit": [
+        "+8 Armor",
+        {
+          "min": 15,
+          "max": 18,
+          "label": "% increased Movement Speed"
+        },
+        {
+          "min": 10,
+          "max": 20,
+          "label": "% reduced Duration of Stuns Reveived"
+        }
+      ],
+      "requirements": {
+        "level": 58
+      }
+    },
+    {
+      "name": "Arcane Boots",
+      "type": "Boots",
+      "implicit": [
+        "+8 Armor",
+        {
+          "min": 15,
+          "max": 18,
+          "label": "% increased Movement Speed"
+        },
+        {
+          "min": 10,
+          "max": 15,
+          "label": "% Ward Retention"
+        }
+      ],
+      "requirements": {
+        "level": 60
+      }
+    },
+    {
+      "name": "Solarum Greaves",
+      "type": "Boots",
+      "implicit": [
+        "+90 Armor",
+        {
+          "min": 15,
+          "max": 18,
+          "label": "% increased Movement Speed"
+        },
+        {
+          "min": 30,
+          "max": 45,
+          "label": "% Fire Resistance"
+        }
+      ],
+      "requirements": {
+        "level": 67
+      }
+    }
+  ]
+}

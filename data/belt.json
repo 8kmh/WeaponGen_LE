@@ -1,0 +1,12 @@
+{
+  "belt": [
+    {
+      "name": "Sash",
+      "type": "Belt",
+      "implicit": ["+3 Potion Slots"],
+      "requirements": {
+        "level": 1
+      }
+    }
+  ]
+}
