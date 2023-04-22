@@ -21,8 +21,6 @@ const afficherObjetAleatoire = () => {
       const randomIndex = Math.floor(Math.random() * objects.length);
       const object = objects[randomIndex];
 
-      // ...
-
       // Vérifier si l'objet est une paire de bottes ou une ceinture
       let additionalImplicitString = "";
       let extraString = "";
@@ -68,8 +66,6 @@ const afficherObjetAleatoire = () => {
                   <p>Requirements: Level ${object.requirements.level}</p>
                 </div>`;
 
-      // ...
-
       // Afficher l'objet dans l'élément HTML avec la classe "test"
       const testDiv = document.querySelector(".item");
       testDiv.innerHTML = output;
@@ -79,5 +75,6 @@ const afficherObjetAleatoire = () => {
     });
 };
 
-// Appeler la fonction pour afficher un objet aléatoire
-afficherObjetAleatoire();
+// Générer un objet aléatoire
+document.querySelector("input[type=button]").onclick = () =>
+  afficherObjetAleatoire();
