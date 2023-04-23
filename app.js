@@ -9,17 +9,22 @@ const afficherObjetAleatoire = () => {
   const glovesPromise = fetch("data/gloves.json").then((response) =>
     response.json()
   );
+  const helmetPromise = fetch("data/helmet.json").then((response) =>
+    response.json()
+  );
 
-  // Attendre que les deux fichiers soient chargés
-  Promise.all([bootsPromise, beltPromise, glovesPromise])
-    .then(([bootsData, beltData, glovesData]) => {
+  // Attendre que les fichiers soient chargés
+  Promise.all([bootsPromise, beltPromise, glovesPromise, helmetPromise])
+    .then(([bootsData, beltData, glovesData, helmetPromise]) => {
       // Récupérer les objets de type "Boots" et "Belt"
       const boots = bootsData.boots;
       const belts = beltData.belt;
       const gloves = glovesData.gloves;
+      const helmet = helmetPromise.helmet;
+      const spriteSheetUrl = "assets/spriteSheet.webp";
 
       // Concaténer les objets dans un seul tableau
-      const objects = boots.concat(belts, gloves);
+      const objects = boots.concat(belts, gloves, helmet);
 
       // Choisir un objet aléatoire
       const randomIndex = Math.floor(Math.random() * objects.length);
@@ -38,10 +43,20 @@ const afficherObjetAleatoire = () => {
       // Créer une chaîne de caractères pour afficher l'objet
       const output = `<div class="object-card">
                         <h2>${object.name}</h2>
+                        ${
+                          object.imagePosition
+                            ? `<div class="object-image" style="background-image: url('${spriteSheetUrl}'); background-position: -${object.imagePosition.x}px -${object.imagePosition.y}px; width: ${object.imagePosition.width}px; height: ${object.imagePosition.height}px;"></div>`
+                            : ""
+                        }
                         <p>Type: ${object.type}</p>
                         <p>Implicits:</p>
                         <p>${implicits}</p>
-                        <p>Requires: Level ${object.requirements.level}</p>
+                        <p>Requires Level: ${object.requirements.level}</p>
+                        ${
+                          object.requirements.class
+                            ? `<p>Requires Class: ${object.requirements.class}</p>`
+                            : ""
+                        }
                       </div>`;
 
       // Afficher l'objet dans l'élément HTML avec la classe "test"

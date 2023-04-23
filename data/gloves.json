@@ -10,6 +10,12 @@
           "label": " Armor"
         }
       ],
+      "imagePosition": {
+        "x": 1352,
+        "y": 1593,
+        "width": 65,
+        "height": 71
+      },
       "requirements": {
         "level": 1
       }
@@ -29,6 +35,12 @@
           "label": " Mana"
         }
       ],
+      "imagePosition": {
+        "x": 2108,
+        "y": 1673,
+        "width": 68,
+        "height": 71
+      },
       "requirements": {
         "level": 6
       }
@@ -43,6 +55,12 @@
           "label": " Armor"
         }
       ],
+      "imagePosition": {
+        "x": 174,
+        "y": 1668,
+        "width": 67,
+        "height": 82
+      },
       "requirements": {
         "level": 15
       }

@@ -1,0 +1,46 @@
+{
+  "helmet": [
+    {
+      "name": "Battered Helm",
+      "type": "Helmet",
+      "implicit": [
+        {
+          "min": 30,
+          "max": 30,
+          "label": " Armor"
+        }
+      ],
+      "imagePosition": {
+        "x": 9,
+        "y": 2090,
+        "width": 61,
+        "height": 76
+      },
+      "requirements": {
+        "level": "1",
+        "class": "Sentinel"
+      }
+    },
+    {
+      "name": "Cloth Hood",
+      "type": "Helmet",
+      "implicit": [
+        {
+          "min": 14,
+          "max": 14,
+          "label": " Armor"
+        }
+      ],
+      "imagePosition": {
+        "x": 2534,
+        "y": 1758,
+        "width": 54,
+        "height": 72
+      },
+      "requirements": {
+        "level": "1",
+        "class": "Rogue"
+      }
+    }
+  ]
+}

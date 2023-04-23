@@ -2,6 +2,13 @@ body {
   background-color: grey;
   font-family: "Fontin", sans-serif;
 }
-.item {
-  text-align: center;
+
+.object-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
+
+/* https://yeoji.github.io/spritesheet-cutter/ */
