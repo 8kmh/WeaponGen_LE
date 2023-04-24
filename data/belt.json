@@ -55,6 +55,12 @@
           "label": " Armor"
         }
       ],
+      "imagePosition": {
+        "x": 1806,
+        "y": 2214,
+        "width": 75,
+        "height": 41
+      },
       "requirements": {
         "level": 19
       }
@@ -74,6 +80,12 @@
           "label": " Mana"
         }
       ],
+      "imagePosition": {
+        "x": 1885,
+        "y": 2174,
+        "width": 78,
+        "height": 38
+      },
       "requirements": {
         "level": 32
       }
@@ -93,6 +105,12 @@
           "label": " Armor"
         }
       ],
+      "imagePosition": {
+        "x": 1096,
+        "y": 2256,
+        "width": 75,
+        "height": 41
+      },
       "requirements": {
         "level": 44
       }
@@ -107,6 +125,12 @@
           "label": " Potion Slots"
         }
       ],
+      "imagePosition": {
+        "x": 798,
+        "y": 2261,
+        "width": 82,
+        "height": 34
+      },
       "requirements": {
         "level": 44
       }
