@@ -10,6 +10,12 @@
           "label": " Potion Slots"
         }
       ],
+      "imagePosition": {
+        "x": 628,
+        "y": 2636,
+        "width": 80,
+        "height": 37
+      },
       "requirements": {
         "level": 1
       }
@@ -24,6 +30,12 @@
           "label": " Potion Slots"
         }
       ],
+      "imagePosition": {
+        "x": 2011,
+        "y": 2176,
+        "width": 79,
+        "height": 35
+      },
       "requirements": {
         "level": 14
       }

@@ -80,6 +80,12 @@
           "label": "% Necrotic Resistance"
         }
       ],
+      "imagePosition": {
+        "x": 2108,
+        "y": 1509,
+        "width": 67,
+        "height": 68
+      },
       "requirements": {
         "level": 25
       }
@@ -99,6 +105,12 @@
           "label": "% Increased Cast Speed"
         }
       ],
+      "imagePosition": {
+        "x": 1270,
+        "y": 1584,
+        "width": 65,
+        "height": 82
+      },
       "requirements": {
         "level": 31
       }
@@ -118,6 +130,12 @@
           "label": "% Endurance"
         }
       ],
+      "imagePosition": {
+        "x": 343,
+        "y": 1920,
+        "width": 68,
+        "height": 83
+      },
       "requirements": {
         "level": 45
       }
@@ -142,6 +160,12 @@
           "label": "% Increased Poison Duration"
         }
       ],
+      "imagePosition": {
+        "x": 2019,
+        "y": 1678,
+        "width": 74,
+        "height": 63
+      },
       "requirements": {
         "level": 62
       }
@@ -161,6 +185,12 @@
           "label": "% Increased Critical Strike Chance"
         }
       ],
+      "imagePosition": {
+        "x": 2187,
+        "y": 1510,
+        "width": 74,
+        "height": 63
+      },
       "requirements": {
         "level": 62
       }
@@ -180,6 +210,12 @@
           "label": "% Void Resistance"
         }
       ],
+      "imagePosition": {
+        "x": 1101,
+        "y": 1589,
+        "width": 64,
+        "height": 77
+      },
       "requirements": {
         "level": 64
       }
@@ -204,6 +240,12 @@
           "label": "% Increased Health"
         }
       ],
+      "imagePosition": {
+        "x": 596,
+        "y": 2013,
+        "width": 65,
+        "height": 71
+      },
       "requirements": {
         "level": 64
       }

@@ -15,6 +15,12 @@
           "label": "% increased Movement Speed"
         }
       ],
+      "imagePosition": {
+        "x": 178,
+        "y": 1428,
+        "width": 71,
+        "height": 63
+      },
       "requirements": {
         "level": 1
       }
@@ -34,6 +40,12 @@
           "label": "% increased Movement Speed"
         }
       ],
+      "imagePosition": {
+        "x": 1609,
+        "y": 2009,
+        "width": 66,
+        "height": 71
+      },
       "requirements": {
         "level": 8
       }
@@ -53,6 +65,12 @@
           "label": "% increased Movement Speed"
         }
       ],
+      "imagePosition": {
+        "x": 1099,
+        "y": 1422,
+        "width": 73,
+        "height": 72
+      },
       "requirements": {
         "level": 16
       }
@@ -77,6 +95,12 @@
           "label": "% increased Dodge Rating"
         }
       ],
+      "imagePosition": {
+        "x": 19,
+        "y": 1421,
+        "width": 51,
+        "height": 73
+      },
       "requirements": {
         "level": 23
       }
@@ -96,6 +120,12 @@
           "label": "% increased Movement Speed"
         }
       ],
+      "imagePosition": {
+        "x": 102,
+        "y": 1422,
+        "width": 57,
+        "height": 72
+      },
       "requirements": {
         "level": 30
       }
@@ -120,6 +150,12 @@
           "label": "% Cold Resistance"
         }
       ],
+      "imagePosition": {
+        "x": 2276,
+        "y": 1424,
+        "width": 68,
+        "height": 73
+      },
       "requirements": {
         "level": 45
       }
@@ -144,6 +180,12 @@
           "label": "% reduced Duration of Stuns Reveived"
         }
       ],
+      "imagePosition": {
+        "x": 601,
+        "y": 1510,
+        "width": 67,
+        "height": 65
+      },
       "requirements": {
         "level": 58
       }
@@ -168,6 +210,12 @@
           "label": "% Ward Retention"
         }
       ],
+      "imagePosition": {
+        "x": 515,
+        "y": 2008,
+        "width": 65,
+        "height": 77
+      },
       "requirements": {
         "level": 60
       }
@@ -192,6 +240,12 @@
           "label": "% Fire Resistance"
         }
       ],
+      "imagePosition": {
+        "x": 679,
+        "y": 1504,
+        "width": 72,
+        "height": 77
+      },
       "requirements": {
         "level": 67
       }
