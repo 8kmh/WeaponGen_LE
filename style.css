@@ -19,4 +19,8 @@ p {
   color: white;
 }
 
+.crosshair {
+  cursor: crosshair;
+}
+
 /* https://yeoji.github.io/spritesheet-cutter/ */
