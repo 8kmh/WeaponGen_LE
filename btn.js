@@ -1,4 +1,4 @@
-let cursorToggle = false;
+export let cursorToggle = false;
 
 const toggleCursor = () => {
   cursorToggle = !cursorToggle;
