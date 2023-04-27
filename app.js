@@ -45,6 +45,15 @@ const afficherObjetAleatoire = (callback) => {
         })
         .join("</p><p>");
 
+      // ------------------------------------------------------------- Affichage des range Implicit
+      let implicitValueRange = "";
+      // Itérer sur les implicites de l'objet sélectionné
+      for (let i in object.implicit) {
+        const implicit = object.implicit[i];
+        implicitValueRange += `<span class="implicit-range">${implicit.label} min: ${implicit.min} max: ${implicit.max}</span>`;
+      }
+      // --------------------------------------------------------------------------------------------
+
       // Créer une chaîne de caractères pour afficher l'objet
       const output = `<div class="object-card">
                   <h2>${object.name}</h2>
@@ -57,6 +66,7 @@ const afficherObjetAleatoire = (callback) => {
                   <p>Implicits:</p>
                   <div class="implicits-container">
                     <p>${implicits}</p>
+                    <p> ${implicitValueRange}</p>
                   </div>
                   <p>Requires Level: ${object.requirements.level}</p>
                   ${
@@ -69,7 +79,6 @@ const afficherObjetAleatoire = (callback) => {
       // Afficher l'objet dans l'élément HTML avec la classe "test"
       const loot = document.querySelector(".item");
       loot.innerHTML = output;
-
       if (callback) {
         callback();
       }
